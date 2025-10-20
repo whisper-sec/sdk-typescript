@@ -1,0 +1,33 @@
+{
+  "name": "@whisper-security/whisper-api-sdk",
+  "version": "0.1.0",
+  "description": "OpenAPI client for @whisper-security/whisper-api-sdk",
+  "author": "OpenAPI-Generator Contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whisper-sec/sdk-typescript.git"
+  },
+  "keywords": [
+    "axios",
+    "typescript",
+    "openapi-client",
+    "openapi-generator",
+    "@whisper-security/whisper-api-sdk"
+  ],
+  "license": "Proprietary",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "12.11.5 - 12.20.42",
+    "typescript": "^4.0 || ^5.0"
+  },
+  "publishConfig": {
+    "registry": "https://github.com/whisper-sec/sdk-typescript"
+  }
+}
